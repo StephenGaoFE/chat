@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>聊天室</title>
+    <link rel="stylesheet" href="css/chat.css" />
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/chat.js"></script>    
+</head>
+<body>
+    <div id="chat">
+        <div id="chat-top">
+            <div id="chat-dialog">
+                <div id="chat-dialog-t">Ajax聊天室</div>
+                <div id="chat-dialog-con">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div id="chat-user">
+                <div id="chat-user-t">当前在线用户</div>
+                <div id="chat-user-con">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="chat-bottom">
+            <div id="chat-input">
+                <div id="chat-input-expr">
+                    <!--<img src="Images/1.gif" id="1" /><img src="Images/2.gif" id="2" /><img src="Images/3.gif" id="3" /><img src="Images/4.gif" id="4" /><img src="Images/5.gif" id="5" /><img src="Images/6.gif" id="6" /><img src="Images/7.gif" id="7" /><img src="Images/8.gif" id="8" /><img src="Images/9.gif" id="9" /><img src="Images/10.gif" id="10" />-->
+                </div>
+                <div id="chat-input-edit">
+                    <div id="input-field">
+                        <textarea id="txtInput"></textarea>
+                    </div>
+                    <div id="input-btn">
+                        <input id="btnSend" type="button" value="发送" />
+                    </div>
+                </div>
+                <div id="chat-input-tip"></div>
+               <div><input id="btnReset" type="button" value="reset" /></div>
+               <div id="copyright">2016 Stephen's Future Lab<br>前端基于JQuery+Ajax，后端基于PHP</div>
+            </div> 
+        </div>
+    </div>
+    <div id="chat-msg"></div>
+</body>
+</html>
